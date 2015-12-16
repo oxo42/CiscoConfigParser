@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiscoConfigParser", "CiscoConfigParser\CiscoConfigParser.csproj", "{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiscoConfigParser.Tests", "CiscoConfigParser.Tests\CiscoConfigParser.Tests.csproj", "{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{987E73D6-C294-4C07-8744-DCD5D255ED73}"
+	ProjectSection(SolutionItems) = preProject
+		CiscoConfigParser.vsmdi = CiscoConfigParser.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play", "Play\Play.csproj", "{ECE258BA-9499-478C-ACA5-7BC9530272C1}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CiscoConfigParser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A2E5AF15-CAF1-446B-A9D4-EF77D8C77F5A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5FB750AA-A31A-4FC1-ABE1-2513BE8478A4}.Release|x86.ActiveCfg = Release|Any CPU
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Debug|x86.ActiveCfg = Debug|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Debug|x86.Build.0 = Debug|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Release|Any CPU.ActiveCfg = Release|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Release|x86.ActiveCfg = Release|x86
+		{ECE258BA-9499-478C-ACA5-7BC9530272C1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
